@@ -1,0 +1,22 @@
+{
+  "version": "0.0.0",
+  "description": "Oryginal mono repo",
+  "author": "Daniel Karski",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "engines": {
+    "node": "12.18.3",
+    "npm": "6.14.6"
+  },
+  "scripts": {
+    "format": "prettier --write 'packages/**/*.{js,json,md}'"
+  },
+  "devDependencies": {
+    "husky": "^4.2.5",
+    "lint-staged": "^10.2.11",
+    "prettier": "^2.0.5"
+  }
+}

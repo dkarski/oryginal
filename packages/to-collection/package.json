@@ -1,0 +1,15 @@
+{
+  "name": "@oryginal/to-collection",
+  "version": "0.0.0",
+  "main": "index.js",
+  "author": "Daniel Karski",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@oryginal/to-capital-case": "*",
+    "@oryginal/to-unique": "*",
+    "compose-tiny": "^1.1.3"
+  }
+}
