@@ -1,3 +1,5 @@
-const toUnique = (list) => [...new Set(list)]
+function toUnique(list) {
+  return [...new Set(list)]
+}
 
 module.exports = toUnique
