@@ -4,7 +4,6 @@ const toCapitalCase = require("@oryginal/to-capital-case")
 
 const capitalizeItems = (items) => items.map(toCapitalCase)
 
-const toCollection = (items) =>
-  compose(console.log, toUnique, capitalizeItems)(items)
+const toCollection = (items) => compose(toUnique, capitalizeItems)(items)
 
 module.exports = toCollection
