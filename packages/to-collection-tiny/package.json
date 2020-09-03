@@ -1,6 +1,6 @@
 {
   "name": "@oryginal/to-collection-tiny",
-  "version": "0.0.0",
+  "version": "0.0.3",
   "main": "index.js",
   "author": "Daniel Karski",
   "license": "MIT",

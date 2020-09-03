@@ -32,7 +32,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@oryginal/to-capital-case@0.0.0, @oryginal/to-capital-case@workspace:packages/to-capital-case":
+"@oryginal/to-capital-case@npm:0.0.0":
+  version: 0.0.0
+  resolution: "@oryginal/to-capital-case@npm:0.0.0"
+  dependencies:
+    "@oryginal/to-space-case": "*"
+  checksum: 131d224c27247f5ea8a972a03e811db119ef7da9d30282f6cff061152cb09a1749b29ac612e756224d339cda347bc730431e627e8f040d2ce865d3971e8dcdab
+  languageName: node
+  linkType: hard
+
+"@oryginal/to-capital-case@workspace:packages/to-capital-case":
   version: 0.0.0-use.local
   resolution: "@oryginal/to-capital-case@workspace:packages/to-capital-case"
   dependencies:
@@ -59,7 +68,14 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@oryginal/to-no-case@*, @oryginal/to-no-case@workspace:packages/to-no-case":
+"@oryginal/to-no-case@npm:0.0.0":
+  version: 0.0.0
+  resolution: "@oryginal/to-no-case@npm:0.0.0"
+  checksum: bf70685e48897f9f7300316236bf68ab84b78c70c325e6752fafafae34918007afef6c876fa528de784d828abfc947c1d504b13cad6228115ca73f04c16d3574
+  languageName: node
+  linkType: hard
+
+"@oryginal/to-no-case@workspace:packages/to-no-case":
   version: 0.0.0-use.local
   resolution: "@oryginal/to-no-case@workspace:packages/to-no-case"
   languageName: unknown
@@ -69,7 +85,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@oryginal/to-space-case@workspace:packages/to-space-case"
   dependencies:
-    "@oryginal/to-no-case": "*"
+    "@oryginal/to-no-case": 0.0.0
   languageName: unknown
   linkType: soft
 
