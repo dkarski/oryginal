@@ -1,6 +1,6 @@
 {
   "name": "@oryginal/to-collection-tiny",
-  "version": "0.0.0",
+  "version": "0.0.2-alpha.0",
   "main": "index.js",
   "author": "Daniel Karski",
   "license": "MIT",
@@ -8,7 +8,7 @@
     "start": "node index.js"
   },
   "dependencies": {
-    "@oryginal/to-capital-case": "0.0.0",
+    "@oryginal/to-capital-case": "^0.0.2-alpha.0",
     "@oryginal/to-unique": "0.0.0"
   }
 }

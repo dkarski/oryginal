@@ -1,6 +1,6 @@
 {
   "name": "@oryginal/to-capital-case",
-  "version": "0.0.0",
+  "version": "0.0.2-alpha.0",
   "main": "index.js",
   "author": "Daniel Karski",
   "license": "MIT",
@@ -8,6 +8,6 @@
     "start": "node index.js"
   },
   "dependencies": {
-    "@oryginal/to-space-case": "*"
+    "@oryginal/to-space-case": "^0.0.2-alpha.0"
   }
 }
