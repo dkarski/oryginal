@@ -1,0 +1,6 @@
+package-lock.json
+tsconfig.json
+jest.config.json
+/src/
+/coverage/
+/__tests__/
