@@ -1,7 +1,7 @@
 {
   "name": "@oryginal/to-collection",
   "version": "0.2.0-alpha.0",
-  "main": "index.ts",
+  "main": "lib/index.js",
   "author": "Daniel Karski",
   "license": "MIT",
   "scripts": {
