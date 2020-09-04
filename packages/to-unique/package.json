@@ -2,6 +2,7 @@
   "name": "@oryginal/to-unique",
   "version": "0.2.1-alpha.0",
   "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "author": "Daniel Karski",
   "license": "MIT",
   "scripts": {
