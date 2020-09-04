@@ -1,6 +1,6 @@
 {
   "name": "@oryginal/to-capital-case",
-  "version": "0.3.0-alpha.0",
+  "version": "0.3.1-alpha.0",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "author": "Daniel Karski",
@@ -10,6 +10,6 @@
     "start": "ts-node src/index.ts"
   },
   "dependencies": {
-    "@oryginal/to-space-case": "^0.3.0-alpha.0"
+    "@oryginal/to-space-case": "^0.3.1-alpha.0"
   }
 }
