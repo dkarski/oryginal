@@ -6,7 +6,8 @@
   "author": "Daniel Karski",
   "license": "MIT",
   "scripts": {
-    "start": "node index.ts",
+    "start": "ts-node index.ts",
+    "test": "jest",
     "build": "tsc"
   },
   "dependencies": {

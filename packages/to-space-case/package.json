@@ -7,7 +7,7 @@
   "license": "MIT",
   "scripts": {
     "build": "tsc",
-    "start": "node index.ts"
+    "start": "ts-node index.ts"
   },
   "dependencies": {
     "@oryginal/to-no-case": "^0.2.2-alpha.0"

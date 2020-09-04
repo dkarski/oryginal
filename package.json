@@ -10,13 +10,19 @@
   },
   "scripts": {
     "format": "prettier --write 'packages/**/*.{js,json,md}'",
-    "bootstrap": "lerna bootstrap --hoist"
+    "bootstrap": "lerna bootstrap --hoist",
+    "test": "lerna run test",
+    "build": "lerna run build"
   },
   "devDependencies": {
+    "@types/jest": "^26.0.13",
     "husky": "^4.2.5",
+    "jest": "^26.4.2",
     "lerna": "^3.22.1",
     "lint-staged": "^10.2.11",
     "prettier": "^2.0.5",
+    "ts-jest": "^26.3.0",
+    "ts-node": "^9.0.0",
     "typescript": "^4.0.2"
   }
 }
