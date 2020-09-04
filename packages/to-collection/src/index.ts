@@ -1,6 +1,6 @@
 import compose from "compose-tiny"
-import toUnique from "@oryginal/to-unique/src"
-import toCapitalCase from "@oryginal/to-capital-case/src"
+import toUnique from "@oryginal/to-unique"
+import toCapitalCase from "@oryginal/to-capital-case"
 
 const capitalizeItems = (items: string[]) => items.map(toCapitalCase)
 

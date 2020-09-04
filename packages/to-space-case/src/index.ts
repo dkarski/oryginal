@@ -1,4 +1,4 @@
-import toNoCase from "@oryginal/to-no-case/src"
+import toNoCase from "@oryginal/to-no-case"
 
 const toSpaceCase = (string: string) => {
   return toNoCase(string)

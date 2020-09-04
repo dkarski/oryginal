@@ -1,4 +1,4 @@
-import toSpaceCase from "@oryginal/to-space-case/src"
+import toSpaceCase from "@oryginal/to-space-case"
 
 const toCapitalCase = (string: string) => {
   return toSpaceCase(string).replace(/(^|\s)(\w)/g, function (
