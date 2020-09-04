@@ -1,3 +1,4 @@
+// @ts-ignore
 import toCollection from "../src";
 
 test("result list is unique ", () => {
