@@ -1,6 +1,6 @@
 {
   "name": "@oryginal/to-collection",
-  "version": "0.3.6-alpha.0",
+  "version": "0.4.0",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "author": "Daniel Karski",
@@ -11,8 +11,8 @@
     "build": "tsc"
   },
   "dependencies": {
-    "@oryginal/to-capital-case": "^0.3.6-alpha.0",
-    "@oryginal/to-unique": "^0.3.5-alpha.0",
+    "@oryginal/to-capital-case": "^0.4.0",
+    "@oryginal/to-unique": "^0.4.0",
     "compose-tiny": "^1.1.3"
   }
 }
