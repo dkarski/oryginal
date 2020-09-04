@@ -1,4 +1,4 @@
-import toCollection from "../index"
+import toCollection from "../src";
 
 test("result list is unique ", () => {
   const result = toCollection(["A", "A", "a", "B"])

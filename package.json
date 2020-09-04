@@ -12,7 +12,8 @@
     "format": "prettier --write 'packages/**/*.{js,json,md}'",
     "bootstrap": "lerna bootstrap --hoist",
     "test": "lerna run test",
-    "build": "lerna run build"
+    "build": "lerna run build",
+    "publish": "lerna publish"
   },
   "devDependencies": {
     "@types/jest": "^26.0.13",
