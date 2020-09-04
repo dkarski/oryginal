@@ -13,6 +13,7 @@
     "bootstrap": "lerna bootstrap --hoist",
     "test": "lerna run test",
     "build": "lerna run build",
+    "prepublish": "npm run build",
     "publish": "lerna publish"
   },
   "devDependencies": {
