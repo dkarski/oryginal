@@ -1,6 +1,6 @@
 package-lock.json
 tsconfig.json
-jest.config.json
+jest.config.js
 /src/
 /coverage/
 /__tests__/
