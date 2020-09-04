@@ -8,6 +8,6 @@
     "start": "node index.js"
   },
   "dependencies": {
-    "@oryginal/to-space-case": "*"
+    "@oryginal/to-space-case": "0.0.0"
   }
 }

@@ -4,18 +4,17 @@
   "author": "Daniel Karski",
   "license": "MIT",
   "private": true,
-  "workspaces": [
-    "packages/*"
-  ],
   "engines": {
     "node": "12.18.3",
     "npm": "6.14.6"
   },
   "scripts": {
-    "format": "prettier --write 'packages/**/*.{js,json,md}'"
+    "format": "prettier --write 'packages/**/*.{js,json,md}'",
+    "bootstrap": "lerna bootstrap --hoist"
   },
   "devDependencies": {
     "husky": "^4.2.5",
+    "lerna": "^3.22.1",
     "lint-staged": "^10.2.11",
     "prettier": "^2.0.5"
   }

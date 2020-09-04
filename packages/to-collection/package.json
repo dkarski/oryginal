@@ -8,8 +8,8 @@
     "start": "node index.js"
   },
   "dependencies": {
-    "@oryginal/to-capital-case": "*",
-    "@oryginal/to-unique": "*",
+    "@oryginal/to-capital-case": "0.0.0",
+    "@oryginal/to-unique": "0.0.0",
     "compose-tiny": "^1.1.3"
   }
 }
