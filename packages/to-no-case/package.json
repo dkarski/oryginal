@@ -1,10 +1,11 @@
 {
   "name": "@oryginal/to-no-case",
   "version": "0.1.0-alpha.0",
-  "main": "index.js",
+  "main": "index.ts",
   "author": "Daniel Karski",
   "license": "MIT",
   "scripts": {
-    "start": "node index.js"
+    "build": "tsc",
+    "start": "node index.ts"
   }
 }
